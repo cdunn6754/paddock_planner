@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from paddock_planner import views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('teamup/events/', views.teamup_events_view, name='teamup-events')
 ]

@@ -1,6 +1,9 @@
 django~=4.0.3
+djangorestframework~=3.13.1
 requests~=2.27.1
 
+
+pytest-django
 
 flake8
 pip-tools
