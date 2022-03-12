@@ -1,0 +1,7 @@
+django~=4.0.3
+requests~=2.27.1
+
+
+flake8
+pip-tools
+python-dotenv
