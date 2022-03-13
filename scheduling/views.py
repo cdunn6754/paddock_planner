@@ -1,6 +1,6 @@
 from rest_framework import decorators, response
 
-from paddock_planner.utils import get_teamup_events
+from scheduling.utils import get_teamup_events
 
 
 @decorators.api_view(['get'])

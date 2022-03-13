@@ -14,11 +14,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-
-from paddock_planner import views
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('teamup/events/', views.teamup_events_view, name='teamup-events')
+    path('scheduling/', include('scheduling.urls', namespace='scheduling'))
 ]

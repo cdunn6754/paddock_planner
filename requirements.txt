@@ -36,6 +36,8 @@ pip-tools==6.5.1
     # via -r requirements.in
 pluggy==1.0.0
     # via pytest
+psycopg2==2.9.3
+    # via -r requirements.in
 py==1.11.0
     # via pytest
 pycodestyle==2.8.0

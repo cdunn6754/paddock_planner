@@ -1,7 +1,7 @@
 from django.conf import settings
 import requests
 
-from paddock_planner.serializers import TeamupEventSerializer
+from scheduling.serializers import TeamupEventSerializer
 
 TEAMUP_DOMAIN = "https://api.teamup.com/"
 
