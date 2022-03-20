@@ -5,5 +5,5 @@ from scheduling import views
 app_name = 'scheduling'
 
 urlpatterns = [
-    path('event-list/', views.get_teamup_events, name='event-list'),
+    path('event-list/', views.teamup_events_view, name='event-list'),
 ]

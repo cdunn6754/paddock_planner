@@ -4,7 +4,9 @@ requests~=2.27.1
 psycopg2~=2.9.3
 
 
+# testing
 pytest-django
+factory_boy
 
 flake8
 pip-tools
